@@ -1,7 +1,24 @@
 <!DOCTYPE html>
+
 <head>
-  <title>Admin Score</title>
+  <title>Poängjakt!</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
+
 <body>
-  <p>Hey</p>
+  <div id="container--img" class="mod--center">
+    <img id="img--cng__logo" src="res/top-logo.png" alt="Curt Nicolin Gymnasiet">
+  </div>
+  <div id="container--topinfo">
+    <h1>CNG's Fadder Poängjakt</h1>
+    <h2>Här kan ni se alla gruppernas poäng i realtid</h2>
+  </div>
+  <div id="container--graph">
+    <canvas id="content--graph">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.6"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="js/index.js"></script>
 </body>

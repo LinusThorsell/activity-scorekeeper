@@ -1,0 +1,57 @@
+#container--topinfo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: #FDB12D;
+
+    width: 100%;
+    padding-top: 0.2vw;
+    padding-bottom: 0.2vw;
+}
+#container--graph {
+    padding-top: 3vh;
+    height: 60vh;
+}
+.mod--center {
+    text-align: center;
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    height: 100%;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 601px) {
+    #img--cng__logo {
+        width: 40%;
+        padding-top: 1vh;
+        padding-bottom: 0.7vh;
+    }
+    h1 {
+        font-size: 2vw;
+    }
+    h2 {
+        font-size: 1.5vw;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    #img--cng__logo {
+        width: 80%;
+        padding-top: 1vh;
+        padding-bottom: 0.7vh;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 3.5vw;
+    }
+
+  }
